@@ -21,16 +21,16 @@ public class Bola {
 	}
 	public ParOrdenado getPosicaodabola() {
 	return posicaodabola;
-}
-public double getVelocidadehori() {
+	}
+	public double getVelocidadehori() {
 	return velocidadehori;
-}
-public double getVelocidadevert() {
+	}
+	public double getVelocidadevert() {
 	return velocidadevert;
-}
-public double getRaiobola() {
+	}
+	public double getRaiobola() {
 	return raiobola;
-}
+	}	
 	public void movimenta() {
 		double movibola = posicaodabola.getX() + velocidadehori;
 		posicaodabola.setX(movibola);
